@@ -1,0 +1,187 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=AR+One+Sans&display=swap');
+
+:root {
+    --fonte-one-piece: 'Acme', sans-serif;
+    --fonte-padrao: 'Lilita One', cursive;
+    --fonte-destaque: 'Young Serif', serif;
+    --fonte-padra: 'AR One Sans', sans-serif;
+}
+
+html, body {
+    min-height: 100vh;
+    background-color: rgb(255, 255, 255);
+}
+
+header {
+    background-color: rgb(0, 0, 0);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h3 {
+    color: rgb(165, 85, 85);
+    margin: 20px;
+}
+header h1 {
+    margin-top: 50px;
+}
+
+section {
+    background-color: rgb(224, 224, 224);
+    margin: auto;
+    font-family: var(--fonte-padra);
+    /* padding: 40px; */
+}
+
+nav li {
+    display: inline;
+    margin-left: 10px;
+    margin-right: 10px;
+    
+}
+
+nav a {
+    background-color: rgb(255, 255, 255);
+    padding: 20px;
+    color: black;
+    border-radius: 25px;
+
+}
+
+li a:hover {
+    font-size: 1.4em;
+}
+
+nav {
+    text-align: center;
+    background-color: rgb(0, 255, 255);
+    padding: 10px;
+}
+
+
+.personagem {
+    align-items: center;
+}
+
+.imagem {
+    width: 100%;
+    height: 100vh;
+    background: black ;
+    padding: 0px;
+    margin: 0;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment:fixed;
+    background-size: cover;
+    
+}
+
+.imagem-bando {
+    background-image: url(../imagens/tripulacao.jpeg);
+}
+
+.imagem-luffy {
+    background-image: url(../imagens/luffy.jpg);
+}
+
+.imagem-zoro {
+    background-image: url(../imagens/zoro.jpg);
+}
+
+.imagem-nami {
+    background-image: url(../imagens/nami.jpg);
+}
+
+.imagem-usopp {
+    background-image: url(../imagens/usopp.jpg);
+    background-position: left center;
+}
+
+.imagem-sanji {
+    background-image: url(../imagens/sanji.jpg);
+    background-position: top center;
+}
+
+.imagem-chopper {
+    background-image: url(../imagens/chopper.jpg);
+}
+
+.imagem-robin {
+    background-image: url(../imagens/robin.jpg);
+}
+
+.imagem-franky {
+    background-image: url(../imagens/franky.jpg);
+}
+
+.imagem-brook {
+    background-image: url(../imagens/brook.png);
+}
+
+.imagem-jinbe {
+    background-image: url(../imagens/jinbe.jpg);
+}
+
+.imagem-yamato {
+    background-image: url(../imagens/yamato.png);
+}
+
+.conteudo {
+    padding: 20px;
+    margin: auto;
+    width: 40vw;
+    text-align: justify;   
+    line-height: 1.5em;
+    padding: 70px;
+    
+}
+
+h1 {
+    font-family:var(--fonte-one-piece);
+    font-size: 2.8em;
+    text-shadow: 1px 1px 3px rgb(255, 85, 85);
+}
+
+h2  {
+    font-weight: 900;
+    font-variant: small-caps;
+    text-align: center;
+    text-shadow: 0px 0px 2px rgb(255, 85, 85);
+}
+
+.conteudo h3 {
+    text-align: center;
+    margin: 8px;
+    
+}
+
+
+
+a {
+    font-size: 1.2em;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+
+footer {
+    text-align: center;
+    background-color: black;
+    color: white;
+    padding: 15px;
+}
+
+footer:hover a {
+    font-size: 1.4em;
+    text-shadow: 1px 1px 2px rgb(193, 209, 255);
+}
+
+footer:hover a:hover {
+
+    color: white;
+    font-size: 1.6em;
+    text-shadow: 2px 1px 4px rgb(193, 209, 255);
+}
