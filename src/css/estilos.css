@@ -7,6 +7,17 @@
     --fonte-padrao: 'Lilita One', cursive;
     --fonte-destaque: 'Young Serif', serif;
     --fonte-padra: 'AR One Sans', sans-serif;
+
+    --cor-luffy: rgb(197, 0, 0);
+    --cor-zoro: rgb(0, 110, 46);
+    --cor-nami: rgb(255, 145, 0);
+    --cor-usopp: rgb(156, 76, 0);
+    --cor-sanji: rgb(255, 217, 0);
+    --cor-chopper: rgb(202, 80, 165);
+    --cor-robin: rgb(110, 0, 95);
+    --cor-franky: rgb(61, 175, 209);
+    --cor-brook: rgb(0, 0, 0);
+    --cor-jinbe: rgb(0, 26, 255);
 }
 
 html, body {
@@ -15,14 +26,17 @@ html, body {
 }
 
 header {
-    background-color: rgb(0, 0, 0);
-    color: white;
+    background-color:transparent;
+    background-color: #8dd9c17a;
+    width: 100%;
+
+    color: rgb(255, 255, 255);
     text-align: center;
     padding: 40px;
 }
 
 header h3 {
-    color: rgb(165, 85, 85);
+    color: #3d7564;
     margin: 20px;
 }
 header h1 {
@@ -33,38 +47,161 @@ section {
     background-color: rgb(224, 224, 224);
     margin: auto;
     font-family: var(--fonte-padra);
-    /* padding: 40px; */
+}
+
+nav {
+    position: fixed;
+    background-color: transparent;
+    z-index: 1;
+}
+
+li {
+    background-color: transparent;
 }
 
 nav li {
-    display: inline;
-    margin-left: 10px;
-    margin-right: 10px;
+    display: inline-block;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2em;
+    transition: transform 0.5s;
     
 }
 
 nav a {
-    background-color: rgb(255, 255, 255);
-    padding: 20px;
     color: black;
     border-radius: 25px;
+    font-family: var(--fonte-one-piece);
+    font-variant: small-caps;
+
 
 }
 
-li a:hover {
-    font-size: 1.4em;
+
+li:hover {
+    transform: scale(1.2);
+}
+
+a#aluffy:hover {
+
+    color: var(--cor-luffy);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+a#azoro:hover {
+
+    color: var(--cor-zoro);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+a#anami:hover {
+
+    color: var(--cor-nami);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+a#ausopp:hover {
+
+    color: var(--cor-usopp);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+a#asanji:hover {
+
+    color: var(--cor-sanji);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+a#achopper:hover {
+
+    color: var(--cor-chopper);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+a#arobin:hover {
+
+    color: var(--cor-robin);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+a#afranky:hover {
+
+    color: var(--cor-franky);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+a#abrook:hover {
+
+    color: var(--cor-brook);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+a#ajinbe:hover {
+
+    color: var(--cor-jinbe);
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+a#ayamato:hover {
+
+    background-image: linear-gradient(to right, red, yellow);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 nav {
+    width: 100%;
+    height: 45px;
     text-align: center;
-    background-color: rgb(0, 255, 255);
-    padding: 10px;
+    background-color: #8dd9c19c;
+}
+
+#luffy h2 {
+    color: var(--cor-luffy);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#zoro  h2 {
+    color: rgb(0, 110, 46);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#nami  h2 {
+    color: rgb(255, 145, 0);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#usopp  h2 {
+    color: rgb(156, 76, 0);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#sanji  h2 {
+    color: rgb(255, 217, 0);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#chopper  h2 {
+    color: rgb(202, 80, 165);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#robin  h2 {
+    color: rgb(110, 0, 95);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#franky  h2 {
+    color: rgb(61, 175, 209);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#brook  h2 {
+    color: rgb(0, 0, 0);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#jinbe  h2 {
+    color: rgb(0, 26, 255);
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.479);
+}
+#yamato  h2 {
+    background-image: linear-gradient(to right, blue, red, yellow, #ffffff);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: 0.5px 0.5px 1px rgba(0, 0, 0, 0.185);
 }
 
 
-.personagem {
-    align-items: center;
-}
+
 
 .imagem {
     width: 100%;
@@ -129,6 +266,11 @@ nav {
     background-image: url(../imagens/yamato.png);
 }
 
+.personagem {
+    position: relative;
+    align-items: center;
+}
+
 .conteudo {
     padding: 20px;
     margin: auto;
@@ -139,17 +281,27 @@ nav {
     
 }
 
+img {
+    position: absolute;
+    display: block;
+    margin: auto;
+    width: 200px;
+    right: 3%;
+    top: 50%;
+    transform: translate(0%, -50%);
+}
+
 h1 {
+    font-variant: small-caps;
     font-family:var(--fonte-one-piece);
-    font-size: 2.8em;
-    text-shadow: 1px 1px 3px rgb(255, 85, 85);
+    font-size: 5em;
+    text-shadow: 1px 1px 3px #46cca2;
 }
 
 h2  {
     font-weight: 900;
     font-variant: small-caps;
     text-align: center;
-    text-shadow: 0px 0px 2px rgb(255, 85, 85);
 }
 
 .conteudo h3 {

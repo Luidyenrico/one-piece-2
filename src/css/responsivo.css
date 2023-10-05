@@ -1,0 +1,68 @@
+@media (max-width: 1492px) {
+
+.personagem {
+    text-align: left;
+    align-items: normal;
+}
+.conteudo {
+    width: 70vw;
+    margin: initial;
+    align-items: normal;
+    text-align: left;
+}
+h2 {
+    text-align: left;
+}
+.conteudo h3 {
+    text-align: left;
+    margin-left: 0;
+}
+nav {
+    height: 95px;
+}
+}
+
+
+@media (max-width: 805px) {
+
+    body {
+        overflow-x: hidden;
+    }
+
+.conteudo {
+    padding: 50px 35px 50px 35px;
+    width: 100vw;
+    text-align: justify;
+    text-justify: justify;
+    justify-content: justify;
+    margin: auto;
+}
+
+.conteudo h2{
+    text-align: center;
+}
+
+.conteudo h3 {
+    text-align: center;
+}
+
+p {
+    margin-bottom: 50px;
+    line-height: 1.6em;
+}
+
+nav {
+    display: none;
+}
+
+img {
+    position: relative;
+    display: block;
+    margin: auto;
+    width: 200px;
+    right: unset;
+    top: unset;
+    transform: translate(0%, 0%);
+}
+
+}
